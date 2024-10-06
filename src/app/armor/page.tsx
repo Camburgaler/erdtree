@@ -1,19 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Armor } from "../util/types/armor";
-import { Set } from "../util/types/set";
-import ArmorResultSet from "./ArmorResultSet";
-import InputNumber from "./InputNumber";
-import InputRadio from "./InputRadio";
-import InputSelect from "./InputSelect";
-
-// GLOBAL CONSTANTS
-const HELMETS: Armor[] = Object.values(require("../data/helmets.json"));
-const CHESTPIECES: Armor[] = Object.values(require("../data/chestpieces.json"));
-const GAUNTLETS: Armor[] = Object.values(require("../data/gauntlets.json"));
-const LEGGINGS: Armor[] = Object.values(require("../data/leggings.json"));
-const ARMOR_RESULTS_SET_IDS = ["first", "second", "third", "fourth", "fifth"];
+import {
+    ARMOR_RESULTS_SET_IDS,
+    CHESTPIECES,
+    GAUNTLETS,
+    HELMETS,
+    LEGGINGS,
+} from "../util/constants";
+import Armor from "../util/types/armor";
+import Set from "../util/types/set";
+import ArmorResultSet from "./components/ArmorResultSet";
+import InputNumber from "./components/InputNumber";
+import InputRadio from "./components/InputRadio";
+import InputSelect from "./components/InputSelect";
 
 export default function ArmorPage() {
     // STATES

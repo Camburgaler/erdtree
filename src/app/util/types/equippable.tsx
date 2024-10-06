@@ -1,8 +1,10 @@
 import StatMap from "../interfaces/statMap";
 
-export type Equippable = {
+type Equippable = {
     id: string;
     name: string;
-    stats?: StatMap;
+    stats?: StatMap<number>;
     total?: number;
 };
+
+export default Equippable;

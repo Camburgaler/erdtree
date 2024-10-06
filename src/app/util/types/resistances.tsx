@@ -1,4 +1,4 @@
-export type Resistances = {
+type Resistances = {
     poison: number;
     scarletRot: number;
     hemorrhage: number;
@@ -7,3 +7,5 @@ export type Resistances = {
     madness: number;
     deathBlight: number;
 };
+
+export default Resistances;

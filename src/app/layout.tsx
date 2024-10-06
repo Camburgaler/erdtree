@@ -1,8 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
+import { NavLinks } from "./components/NavLinks";
 import "./globals.css";
-import { NavLinks } from "./ui/NavLinks";
 
 export const metadata: Metadata = {
     title: "Elden Ring Build Tools - Erdtree",

@@ -48,3 +48,5 @@ A collection of build planning tools and data for Elden Ring.
 Data and images from Elden Ring which are used in this project are the property of From Software and BANDAI NAMCO.
 
 Based on [erdtree](https://github.com/vodofrede/erdtree) by [@vodofrede](https://github.com/vodofrede)
+
+Weapon attack rating calculations feature some cannibalization of [Elden Ring Weapon Calculator](https://github.com/ThomasJClark/elden-ring-weapon-calculator) by [Thomas J Clark](https://github.com/ThomasJClark).
