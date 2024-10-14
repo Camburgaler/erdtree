@@ -1,16 +1,20 @@
-import { InfusionMap } from "../interfaces/infusionMap";
+import InfusionMap from "../interfaces/infusionMap";
 import StatMap from "../interfaces/statMap";
-import WeaponInfusion from "../interfaces/weaponInfusion";
-import { Equippable } from "./equippable";
+import Equippable from "./equippable";
+import WeaponInfusion from "./weaponInfusion";
 
 interface Aux {
     [key: string]: { effect: [number, number] };
 }
 
-export type Weapon = Equippable & {
-    requirements: StatMap;
+type Weapon = Equippable & {
+    requirements: StatMap<number>;
     category: string;
     unique: boolean;
+    paired: boolean;
+    "glintstone-staff": boolean;
+    "sacred-seal": boolean;
     infusions: InfusionMap<WeaponInfusion>;
-    aux?: Aux;
 };
+
+export default Weapon;

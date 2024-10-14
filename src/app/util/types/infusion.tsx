@@ -1,11 +1,18 @@
-import DamageTypeMap from "../interfaces/damageTypeMap";
+import AttackPowerTypeMap from "../interfaces/attackPowerTypeMap";
 import StatMap from "../interfaces/statMap";
 
-export type Infusion = {
-    id: string;
-    name: string;
-    damage: DamageTypeMap<number>;
-    upgrade: DamageTypeMap<number>;
-    scaling: StatMap;
-    growth: StatMap;
+type SlopeIntercept = {
+    slope: number;
+    intercept: number;
 };
+
+type Infusion = {
+    [key: string]: {
+        id: string;
+        name: string;
+        damageUpgradeRate: AttackPowerTypeMap<SlopeIntercept>;
+        statScalingRate: StatMap<number[]>;
+    };
+};
+
+export default Infusion;

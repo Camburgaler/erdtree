@@ -1,6 +1,8 @@
-import { Armor } from "./armor";
+import Armor from "./armor";
 
-export type Set = Armor[] & {
+type Set = Armor[] & {
     fitness?: number;
     weight?: number;
 };
+
+export default Set;

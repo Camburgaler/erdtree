@@ -1,4 +1,4 @@
-export type Defenses = {
+type Defenses = {
     physical: number;
     strike: number;
     slash: number;
@@ -8,3 +8,5 @@ export type Defenses = {
     lightning: number;
     holy: number;
 };
+
+export default Defenses;

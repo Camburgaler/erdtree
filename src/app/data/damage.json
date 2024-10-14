@@ -1,121 +1,121 @@
 {
-    "0": {
-        "name": "Default",
-        "id": "0",
-        "softcaps": [1, 18, 60, 80, 150],
-        "growth": [0, 25, 75, 90, 110],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "1": {
-        "name": "Heavy",
-        "id": "1",
-        "softcaps": [1, 20, 60, 80, 150],
-        "growth": [0, 35, 75, 90, 110],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "2": {
-        "name": "Keen",
-        "id": "2",
-        "softcaps": [1, 20, 60, 80, 150],
-        "growth": [0, 35, 75, 90, 110],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "3": {
-        "name": "",
-        "id": "3",
-        "softcaps": [1, 20, 30, 50, 99],
-        "growth": [0, 30, 62, 82, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "4": {
-        "name": "Magic / Fire / Lightning / Holy",
-        "id": "4",
-        "softcaps": [1, 20, 50, 80, 99],
-        "growth": [0, 40, 80, 95, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "5": {
-        "name": "",
-        "id": "5",
-        "softcaps": [1, 20, 40, 80, 99],
-        "growth": [0, 75, 225, 270, 300],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "6": {
-        "name": "",
-        "id": "6",
-        "softcaps": [1, 25, 45, 60, 99],
-        "growth": [0, 10, 75, 90, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "7": {
-        "name": "Occult",
-        "id": "7",
-        "softcaps": [1, 20, 60, 80, 150],
-        "growth": [0, 35, 75, 90, 110],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "8": {
-        "name": "Quality",
-        "id": "8",
-        "softcaps": [1, 16, 58, 80, 150],
-        "growth": [0, 25, 75, 90, 110],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "9": {
-        "name": "",
-        "id": "9",
-        "softcaps": [1, 20, 60, 80, 99],
-        "growth": [0, 20, 80, 95, 100],
-        "adjustments": [1.2, -1.2, 1.0, 1.0, 1.0]
-    },
-    "10": {
-        "name": "",
-        "id": "10",
-        "softcaps": [1, 15, 30, 50, 99],
-        "growth": [0, 10, 50, 60, 70],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "11": {
-        "name": "",
-        "id": "11",
-        "softcaps": [1, 25, 45, 60, 99],
-        "growth": [0, 6, 15, 18, 20],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "12": {
-        "name": "Catalyst -",
-        "id": "12",
-        "softcaps": [1, 15, 30, 43, 99],
-        "growth": [0, 10, 55, 75, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "13": {
-        "name": "",
-        "id": "13",
-        "softcaps": [1, 25, 30, 80, 99],
-        "growth": [0, 0, 35, 90, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "14": {
-        "name": "Catalyst - Demi-Human Queen's Staff",
-        "id": "14",
-        "softcaps": [1, 20, 40, 80, 99],
-        "growth": [0, 40, 60, 85, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "15": {
-        "name": "Catalyst -",
-        "id": "15",
-        "softcaps": [1, 25, 60, 80, 99],
-        "growth": [0, 25, 65, 95, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    },
-    "16": {
-        "name": "Catalyst -",
-        "id": "16",
-        "softcaps": [1, 18, 60, 80, 99],
-        "growth": [0, 20, 75, 90, 100],
-        "adjustments": [1.0, 1.0, 1.0, 1.0, 1.0]
-    }
+    "0": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 18, "growth": 0.25, "adjustment": -1.2 },
+        { "softcap": 60, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 150, "growth": 1.1, "adjustment": 1.0 }
+    ],
+    "1": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 20, "growth": 0.35, "adjustment": -1.2 },
+        { "softcap": 60, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 150, "growth": 1.1, "adjustment": 1.0 }
+    ],
+    "2": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 20, "growth": 0.35, "adjustment": -1.2 },
+        { "softcap": 60, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 150, "growth": 1.1, "adjustment": 1.0 }
+    ],
+    "3": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 20, "growth": 0.3, "adjustment": 1.0 },
+        { "softcap": 30, "growth": 0.62, "adjustment": 1.0 },
+        { "softcap": 50, "growth": 0.82, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "4": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 20, "growth": 0.4, "adjustment": 1.0 },
+        { "softcap": 50, "growth": 0.8, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.95, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "5": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 20, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 40, "growth": 2.25, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 2.7, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 3.0, "adjustment": 1.0 }
+    ],
+    "6": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 25, "growth": 0.1, "adjustment": 1.0 },
+        { "softcap": 45, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 60, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "7": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 20, "growth": 0.35, "adjustment": -1.2 },
+        { "softcap": 60, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 150, "growth": 1.1, "adjustment": 1.0 }
+    ],
+    "8": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 16, "growth": 0.25, "adjustment": -1.2 },
+        { "softcap": 58, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 150, "growth": 1.1, "adjustment": 1.0 }
+    ],
+    "9": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.2 },
+        { "softcap": 20, "growth": 0.2, "adjustment": -1.2 },
+        { "softcap": 60, "growth": 0.8, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.95, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "10": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 15, "growth": 0.1, "adjustment": 1.0 },
+        { "softcap": 30, "growth": 0.5, "adjustment": 1.0 },
+        { "softcap": 50, "growth": 0.6, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 0.7, "adjustment": 1.0 }
+    ],
+    "11": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 25, "growth": 0.06, "adjustment": 1.0 },
+        { "softcap": 45, "growth": 0.15, "adjustment": 1.0 },
+        { "softcap": 60, "growth": 0.18, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 0.2, "adjustment": 1.0 }
+    ],
+    "12": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 15, "growth": 0.1, "adjustment": 1.0 },
+        { "softcap": 30, "growth": 0.55, "adjustment": 1.0 },
+        { "softcap": 43, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "13": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 25, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 30, "growth": 0.35, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "14": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 20, "growth": 0.4, "adjustment": 1.0 },
+        { "softcap": 40, "growth": 0.6, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.85, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "15": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 25, "growth": 0.25, "adjustment": 1.0 },
+        { "softcap": 60, "growth": 0.65, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.95, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ],
+    "16": [
+        { "softcap": 1, "growth": 0.0, "adjustment": 1.0 },
+        { "softcap": 18, "growth": 0.2, "adjustment": 1.0 },
+        { "softcap": 60, "growth": 0.75, "adjustment": 1.0 },
+        { "softcap": 80, "growth": 0.9, "adjustment": 1.0 },
+        { "softcap": 99, "growth": 1.0, "adjustment": 1.0 }
+    ]
 }

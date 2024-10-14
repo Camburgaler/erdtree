@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import StatMap from "../util/interfaces/statMap";
-import { Armor } from "../util/types/armor";
-import { Class } from "../util/types/class";
-import { Equippable } from "../util/types/equippable";
-import { Talisman } from "../util/types/talisman";
+import Armor from "../util/types/armor";
+import Class from "../util/types/class";
+import Equippable from "../util/types/equippable";
+import Talisman from "../util/types/talisman";
 
 // GLOBAL CONSTANTS
 const CLASSES: Class[] = Object.values(require("../data/classes.json"));
@@ -38,7 +38,7 @@ const MUTUALLY_EXCLUSIVE_TALISMANS = [
 export default function ClassPage() {
     // STATES
     const [best, setBest] = useState<Class>(CLASSES[0]);
-    const [desiredStats, setDesiredStats] = useState<StatMap>({
+    const [desiredStats, setDesiredStats] = useState<StatMap<number>>({
         VIG: 0,
         END: 0,
         MND: 0,
@@ -48,7 +48,7 @@ export default function ClassPage() {
         FTH: 0,
         ARC: 0,
     });
-    const [finalStats, setFinalStats] = useState<StatMap>({
+    const [finalStats, setFinalStats] = useState<StatMap<number>>({
         VIG: 0,
         END: 0,
         MND: 0,
@@ -58,7 +58,7 @@ export default function ClassPage() {
         FTH: 0,
         ARC: 0,
     });
-    const [virtualStats, setVirtualStats] = useState<StatMap>({
+    const [virtualStats, setVirtualStats] = useState<StatMap<number>>({
         VIG: 0,
         END: 0,
         MND: 0,
@@ -72,7 +72,7 @@ export default function ClassPage() {
     const [equippedTalismans, setEquippedTalismans] = useState<Talisman[]>([]);
     const [helmet, setHelmet] = useState<Armor>(HELMETS[0]);
     const [chestpiece, setChestpiece] = useState<Armor>(CHESTPIECES[0]);
-    const [itemStats, setItemStats] = useState<StatMap>({
+    const [itemStats, setItemStats] = useState<StatMap<number>>({
         VIG: 0,
         END: 0,
         MND: 0,
@@ -100,13 +100,16 @@ export default function ClassPage() {
     }
 
     // FUNCTIONS
-    function getItemStats(relevantItems: Equippable[]): StatMap {
+    function getItemStats(relevantItems: Equippable[]): StatMap<number> {
         return relevantItems.reduce(
-            (total: StatMap, item: Equippable) =>
-                Object.keys(total).reduce((acc: StatMap, statId: string) => {
-                    acc[statId]! += item?.stats ? item.stats[statId]! : 0;
-                    return acc;
-                }, total),
+            (total: StatMap<number>, item: Equippable) =>
+                Object.keys(total).reduce(
+                    (acc: StatMap<number>, statId: string) => {
+                        acc[statId]! += item?.stats ? item.stats[statId]! : 0;
+                        return acc;
+                    },
+                    total
+                ),
             {
                 VIG: 0,
                 END: 0,
@@ -120,7 +123,7 @@ export default function ClassPage() {
         );
     }
 
-    function delta(classStats: StatMap): number {
+    function delta(classStats: StatMap<number>): number {
         return Object.keys(classStats)
             .map((statId: string) =>
                 classStats[statId]! < desiredStats[statId]!
@@ -177,7 +180,7 @@ export default function ClassPage() {
 
     useEffect(() => {
         // calculate final stats
-        let tempFinal: StatMap = {
+        let tempFinal: StatMap<number> = {
             VIG: 0,
             END: 0,
             MND: 0,
@@ -187,7 +190,7 @@ export default function ClassPage() {
             FTH: 0,
             ARC: 0,
         };
-        let tempVirtual: StatMap = {
+        let tempVirtual: StatMap<number> = {
             VIG: 0,
             END: 0,
             MND: 0,

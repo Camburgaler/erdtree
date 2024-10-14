@@ -1,11 +1,11 @@
-export default interface StatMap {
-    [key: string]: number | undefined;
-    VIG?: number;
-    MND?: number;
-    END?: number;
-    STR: number;
-    DEX: number;
-    INT: number;
-    FTH: number;
-    ARC: number;
+export default interface StatMap<T> {
+    [key: string]: T | undefined;
+    VIG?: T;
+    MND?: T;
+    END?: T;
+    STR: T;
+    DEX: T;
+    INT: T;
+    FTH: T;
+    ARC: T;
 }
