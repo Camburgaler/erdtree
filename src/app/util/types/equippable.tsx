@@ -1,4 +1,4 @@
-import StatMap from "../interfaces/statMap";
+import StatMap from "./statMap";
 
 type Equippable = {
     id: string;

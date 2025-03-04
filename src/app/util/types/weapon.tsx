@@ -1,15 +1,12 @@
-import InfusionMap from "../interfaces/infusionMap";
-import StatMap from "../interfaces/statMap";
+import { CategoryMapKey } from "./categoryMap";
 import Equippable from "./equippable";
+import InfusionMap from "./infusionMap";
+import StatMap from "./statMap";
 import WeaponInfusion from "./weaponInfusion";
-
-interface Aux {
-    [key: string]: { effect: [number, number] };
-}
 
 type Weapon = Equippable & {
     requirements: StatMap<number>;
-    category: string;
+    category: CategoryMapKey;
     paired: boolean;
     "glintstone-staff": boolean;
     "sacred-seal": boolean;

@@ -1,10 +1,10 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import StatMap from "../util/interfaces/statMap";
 import Armor from "../util/types/armor";
 import Class from "../util/types/class";
 import Equippable from "../util/types/equippable";
+import StatMap, { StatMapKey } from "../util/types/statMap";
 import Talisman from "../util/types/talisman";
 
 // GLOBAL CONSTANTS
@@ -49,8 +49,8 @@ export default function ClassPage() {
 
     const delta = useCallback(
         (classStats: StatMap<number>): number => {
-            return Object.keys(classStats)
-                .map((statId: string) =>
+            return (Object.keys(classStats) as StatMapKey[])
+                .map((statId: StatMapKey) =>
                     classStats[statId]! < desiredStats[statId]!
                         ? desiredStats[statId]! - classStats[statId]!
                         : 0
@@ -123,8 +123,8 @@ export default function ClassPage() {
     function getItemStats(relevantItems: Equippable[]): StatMap<number> {
         return relevantItems.reduce(
             (total: StatMap<number>, item: Equippable) =>
-                Object.keys(total).reduce(
-                    (acc: StatMap<number>, statId: string) => {
+                (Object.keys(total) as StatMapKey[]).reduce(
+                    (acc: StatMap<number>, statId: StatMapKey) => {
                         acc[statId]! += item?.stats ? item.stats[statId]! : 0;
                         return acc;
                     },
@@ -203,18 +203,20 @@ export default function ClassPage() {
             FTH: 0,
             ARC: 0,
         };
-        Object.keys(desiredStats).forEach((statId: string) => {
-            {
-                tempFinal[statId] = Math.max(
-                    desiredStats[statId]! - itemStats[statId]!,
-                    best?.stats[statId]!
-                );
-                tempVirtual[statId] = Math.max(
-                    desiredStats[statId]!,
-                    best.stats![statId]! + itemStats[statId]!
-                );
+        (Object.keys(desiredStats) as StatMapKey[]).forEach(
+            (statId: StatMapKey) => {
+                {
+                    tempFinal[statId] = Math.max(
+                        desiredStats[statId]! - itemStats[statId]!,
+                        best?.stats[statId]!
+                    );
+                    tempVirtual[statId] = Math.max(
+                        desiredStats[statId]!,
+                        best.stats![statId]! + itemStats[statId]!
+                    );
+                }
             }
-        });
+        );
         setFinalStats(tempFinal);
         setVirtualStats(tempVirtual);
     }, [desiredStats, best, itemStats]);
@@ -288,8 +290,8 @@ export default function ClassPage() {
                         </div>
                     </div>
                     <hr />
-                    {Object.keys(desiredStats).map(
-                        (statId: string, i: number) => (
+                    {(Object.keys(desiredStats) as StatMapKey[]).map(
+                        (statId: StatMapKey, i: number) => (
                             <div key={statId}>
                                 <label htmlFor={statId}>
                                     {STAT_LONG_NAMES[i]}
@@ -354,13 +356,16 @@ export default function ClassPage() {
                                 <option key={item.id} value={item.id}>
                                     {item.name}
                                     {item.stats
-                                        ? Object.keys(item.stats).map(
-                                              (statId: string) =>
-                                                  item.stats![statId]
-                                                      ? " +" +
-                                                        item.stats![statId] +
-                                                        statId
-                                                      : null
+                                        ? (
+                                              Object.keys(
+                                                  item.stats
+                                              ) as StatMapKey[]
+                                          ).map((statId: StatMapKey) =>
+                                              item.stats![statId]
+                                                  ? " +" +
+                                                    item.stats![statId] +
+                                                    statId
+                                                  : null
                                           )
                                         : null}
                                 </option>
@@ -387,13 +392,16 @@ export default function ClassPage() {
                                 <option key={item.id} value={item.id}>
                                     {item.name}
                                     {item.stats
-                                        ? Object.keys(item.stats).map(
-                                              (statId: string) =>
-                                                  item.stats![statId]
-                                                      ? " +" +
-                                                        item.stats![statId] +
-                                                        statId
-                                                      : null
+                                        ? (
+                                              Object.keys(
+                                                  item.stats
+                                              ) as StatMapKey[]
+                                          ).map((statId: StatMapKey) =>
+                                              item.stats![statId]
+                                                  ? " +" +
+                                                    item.stats![statId] +
+                                                    statId
+                                                  : null
                                           )
                                         : null}
                                 </option>
@@ -436,14 +444,17 @@ export default function ClassPage() {
                                         <label>{item.name}</label>
                                     </div>
                                     <aside style={{ fontSize: "0.8rem" }}>
-                                        {Object.keys(item.stats).map(
-                                            (statId: string) =>
-                                                item.stats![statId]
-                                                    ? "+" +
-                                                      item.stats![statId] +
-                                                      statId +
-                                                      " "
-                                                    : null
+                                        {(
+                                            Object.keys(
+                                                item.stats
+                                            ) as StatMapKey[]
+                                        ).map((statId: StatMapKey) =>
+                                            item.stats![statId]
+                                                ? "+" +
+                                                  item.stats![statId] +
+                                                  statId +
+                                                  " "
+                                                : null
                                         )}
                                     </aside>
                                 </li>

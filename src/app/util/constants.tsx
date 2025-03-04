@@ -1,62 +1,69 @@
 import { WeaponResult } from "../weapons/script";
-import AttackPowerTypeMap from "./interfaces/attackPowerTypeMap";
-import StatMap from "./interfaces/statMap";
 import Armor from "./types/armor";
+import AttackPowerTypeMap, {
+    AttackPowerTypeMapKey,
+} from "./types/attackPowerTypeMap";
 import Correction from "./types/correction";
 import Infusion from "./types/infusion";
+import { InfusionMapKey } from "./types/infusionMap";
+import StatMap, { StatMapKey } from "./types/statMap";
 import Weapon from "./types/weapon";
 
 export const WEAPONS: Weapon[] = Object.values(require("../data/weapons.json"));
 WEAPONS.forEach((weapon) => {
-    Object.keys(weapon.infusions).forEach((weaponInfusion) => {
-        const masks: AttackPowerTypeMap<StatMap<boolean>> =
-            WEAPONS[WEAPONS.indexOf(weapon)].infusions[weaponInfusion]!.masks;
-        WEAPONS[WEAPONS.indexOf(weapon)].infusions[weaponInfusion]!.masks = {
-            ...masks,
-            blood: {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: true,
-            },
-            poison: {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: true,
-            },
-            sleep: {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: true,
-            },
-            madness: {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: true,
-            },
-            frost: {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: false,
-            },
-            "scarlet-rot": {
-                STR: false,
-                DEX: false,
-                INT: false,
-                FTH: false,
-                ARC: false,
-            },
-        };
-    });
+    (Object.keys(weapon.infusions) as InfusionMapKey[]).forEach(
+        (weaponInfusion) => {
+            const masks: AttackPowerTypeMap<StatMap<boolean>> =
+                WEAPONS[WEAPONS.indexOf(weapon)].infusions[weaponInfusion]!
+                    .masks;
+            WEAPONS[WEAPONS.indexOf(weapon)].infusions[weaponInfusion]!.masks =
+                {
+                    ...masks,
+                    bleed: {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: true,
+                    },
+                    poison: {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: true,
+                    },
+                    sleep: {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: true,
+                    },
+                    madness: {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: true,
+                    },
+                    frost: {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: false,
+                    },
+                    "scarlet-rot": {
+                        STR: false,
+                        DEX: false,
+                        INT: false,
+                        FTH: false,
+                        ARC: false,
+                    },
+                };
+        }
+    );
 });
 
 export const INFUSIONS: Infusion = require("../data/infusions.json");
@@ -83,22 +90,25 @@ export const ATTACK_POWER_TYPE_MODE_ANY: string = "any";
 export const ATTACK_POWER_TYPE_MODE_ALL: string = "all";
 export const ATTACK_POWER_TYPE_MODE_EXACTLY: string = "exactly";
 
-export const DAMAGE_IDS: string[] = [
+export const DAMAGE_IDS: AttackPowerTypeMapKey[] = [
     "physical",
     "magic",
     "fire",
     "lightning",
     "holy",
 ];
-export const STATUS_IDS: string[] = [
-    "blood",
+export const STATUS_IDS: AttackPowerTypeMapKey[] = [
+    "bleed",
     "poison",
     "frost",
     "scarlet-rot",
     "madness",
     "sleep",
 ];
-export const ATTACK_POWER_TYPE_IDS: string[] = [...DAMAGE_IDS, ...STATUS_IDS];
+export const ATTACK_POWER_TYPE_IDS: AttackPowerTypeMapKey[] = [
+    ...DAMAGE_IDS,
+    ...STATUS_IDS,
+];
 
 export const ATTACK_POWER_TYPE_NAMES: string[] = [
     "Physical",
@@ -128,7 +138,9 @@ export const ATTACK_POWER_TYPE_ID_TO_NAME: { [key: string]: string } = {
     [ATTACK_POWER_TYPE_IDS[10]]: ATTACK_POWER_TYPE_NAMES[10],
 };
 
-export const INFUSION_IDS: string[] = Object.keys(INFUSIONS);
+export const INFUSION_IDS: InfusionMapKey[] = Object.keys(
+    INFUSIONS
+) as InfusionMapKey[];
 
 export const INFUSION_NAMES: string[] = [
     "Standard",
@@ -206,8 +218,19 @@ export const CATEGORY_NAMES: string[][] = [
 
 export const INEFFECTIVE_STAT_PENALTY = 0.4;
 
-export const ATTACK_POWER_STAT_IDS = ["STR", "DEX", "INT", "FTH", "ARC"];
-export const STAT_IDS = ["VIG", "MND", "END", ...ATTACK_POWER_STAT_IDS];
+export const ATTACK_POWER_STAT_IDS: StatMapKey[] = [
+    "STR",
+    "DEX",
+    "INT",
+    "FTH",
+    "ARC",
+];
+export const STAT_IDS: StatMapKey[] = [
+    "VIG",
+    "MND",
+    "END",
+    ...ATTACK_POWER_STAT_IDS,
+];
 
 export const DEFAULT_ATTACK_POWER_TYPE_MAP_BOOLEAN: AttackPowerTypeMap<boolean> =
     {

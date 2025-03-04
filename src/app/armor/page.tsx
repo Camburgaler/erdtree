@@ -21,6 +21,7 @@ import {
     resetAll,
     setStatsToString,
 } from "./script";
+import { SORTBY_MODES } from "./sorting";
 
 export default function ArmorPage() {
     // STATES
@@ -29,7 +30,7 @@ export default function ArmorPage() {
     const [currentEquipLoad, setCurrentEquipLoad] = useState(0);
     const [equipLoadBudget, setEquipLoadBudget] = useState(21);
     const [breakpoint, setBreakpoint] = useState(0.7);
-    const [sortBy, setSortBy] = useState("sort-standard");
+    const [sortBy, setSortBy] = useState("total-standard");
     const [lockedItems, setLockedItems] = useState<ArmorSet>({
         helmet: undefined,
         chestpiece: undefined,
@@ -347,153 +348,16 @@ export default function ArmorPage() {
                         />
                         <hr />
                         <b>Sort by</b>
-                        <InputRadio
-                            label="Greatest Average Absorption"
-                            id="sort-average"
-                            onClick={() => updateSortBy("sort-average")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-average"}
-                        />
-                        <InputRadio
-                            label="Greatest Standard Absorption"
-                            id="sort-standard"
-                            onClick={() => updateSortBy("sort-standard")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-standard"}
-                        />
-                        <InputRadio
-                            label="Greatest Physical Absorption"
-                            id="sort-physical"
-                            onClick={() => updateSortBy("sort-physical")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-physical"}
-                        />
-                        <InputRadio
-                            label="Greatest Strike Absorption"
-                            id="sort-strike"
-                            onClick={() => updateSortBy("sort-strike")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-strike"}
-                        />
-                        <InputRadio
-                            label="Greatest Slash Absorption"
-                            id="sort-slash"
-                            onClick={() => updateSortBy("sort-slash")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-slash"}
-                        />
-                        <InputRadio
-                            label="Greatest Pierce Absorption"
-                            id="sort-pierce"
-                            onClick={() => updateSortBy("sort-pierce")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-pierce"}
-                        />
-                        <InputRadio
-                            label="Greatest Elemental Absorption"
-                            id="sort-elemental"
-                            onClick={() => updateSortBy("sort-elemental")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-elemental"}
-                        />
-                        <InputRadio
-                            label="Greatest Magic Absorption"
-                            id="sort-magic"
-                            onClick={() => updateSortBy("sort-magic")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-magic"}
-                        />
-                        <InputRadio
-                            label="Greatest Fire Absorption"
-                            id="sort-fire"
-                            onClick={() => updateSortBy("sort-fire")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-fire"}
-                        />
-                        <InputRadio
-                            label="Greatest Lightning Absorption"
-                            id="sort-lightning"
-                            onClick={() => updateSortBy("sort-lightning")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-lightning"}
-                        />
-                        <InputRadio
-                            label="Greatest Holy Absorption"
-                            id="sort-holy"
-                            onClick={() => updateSortBy("sort-holy")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-holy"}
-                        />
-                        <InputRadio
-                            label="Greatest Average Resistance"
-                            id="sort-resistances"
-                            onClick={() => updateSortBy("sort-resistances")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-resistances"}
-                        />
-                        <InputRadio
-                            label="Greatest Scarlet Rot Resistance"
-                            id="sort-scarlet-rot"
-                            onClick={() => updateSortBy("sort-scarlet-rot")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-scarlet-rot"}
-                        />
-                        <InputRadio
-                            label="Greatest Poison Resistance"
-                            id="sort-poison"
-                            onClick={() => updateSortBy("sort-poison")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-poison"}
-                        />
-                        <InputRadio
-                            label="Greatest Hemorrhage Resistance"
-                            id="sort-hemorrhage"
-                            onClick={() => updateSortBy("sort-hemorrhage")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-hemorrhage"}
-                        />
-                        <InputRadio
-                            label="Greatest Frostbite Resistance"
-                            id="sort-frostbite"
-                            onClick={() => updateSortBy("sort-frostbite")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-frostbite"}
-                        />
-                        <InputRadio
-                            label="Greatest Sleep Resistance"
-                            id="sort-sleep"
-                            onClick={() => updateSortBy("sort-sleep")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-sleep"}
-                        />
-                        <InputRadio
-                            label="Greatest Madness Resistance"
-                            id="sort-madness"
-                            onClick={() => updateSortBy("sort-madness")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-madness"}
-                        />
-                        <InputRadio
-                            label="Greatest Death Resistance"
-                            id="sort-death"
-                            onClick={() => updateSortBy("sort-death")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-death"}
-                        />
-                        <InputRadio
-                            label="Greatest Poise"
-                            id="sort-poise"
-                            onClick={() => updateSortBy("sort-poise")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-poise"}
-                        />
-                        {/* <InputRadio
-                            label="Custom"
-                            id="sort-custom"
-                            onClick={() => updateSortBy("sort-custom")}
-                            name="sorting-order"
-                            checked={sortBy === "sort-custom"}
-                        /> */}
+                        {Object.entries(SORTBY_MODES).map(([key, value]) => (
+                            <InputRadio
+                                key={key}
+                                label={value.label}
+                                id={key}
+                                onClick={() => updateSortBy(key)}
+                                name="sorting-order"
+                                checked={sortBy === key}
+                            />
+                        ))}
                         <hr />
                         <div>
                             <b>Locked Armor</b>

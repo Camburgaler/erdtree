@@ -1,5 +1,5 @@
-import AttackPowerTypeMap from "../interfaces/attackPowerTypeMap";
-import StatMap from "../interfaces/statMap";
+import AttackPowerTypeMap from "./attackPowerTypeMap";
+import StatMap from "./statMap";
 
 type SlopeIntercept = {
     slope: number;

@@ -14,12 +14,12 @@
         },
         "resistances": {
             "poison": 0,
-            "scarletRot": 0,
+            "scarlet-rot": 0,
             "hemorrhage": 0,
             "frostbite": 0,
             "sleep": 0,
             "madness": 0,
-            "deathBlight": 0
+            "death-blight": 0
         },
         "poise": 0,
         "weight": 0
@@ -38,13 +38,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 7,
         "weight": 4.1
@@ -63,13 +63,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 19,
             "frostbite": 19,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 61
+            "death-blight": 61
         },
         "poise": 5,
         "weight": 3.2
@@ -88,13 +88,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 22,
         "weight": 10.7
@@ -113,13 +113,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 16,
             "madness": 16,
-            "deathBlight": 16
+            "death-blight": 16
         },
         "poise": 21,
         "weight": 9.3
@@ -138,13 +138,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 90
+            "death-blight": 90
         },
         "poise": 12,
         "weight": 5.1
@@ -163,13 +163,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 4.1
@@ -188,13 +188,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 13,
         "weight": 7.1
@@ -213,13 +213,13 @@
             "holy": 6.5
         },
         "resistances": {
-            "scarletRot": 47,
+            "scarlet-rot": 47,
             "poison": 47,
             "hemorrhage": 33,
             "frostbite": 33,
             "sleep": 36,
             "madness": 36,
-            "deathBlight": 30
+            "death-blight": 30
         },
         "poise": 12,
         "weight": 4.9
@@ -238,13 +238,13 @@
             "holy": 6.1
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 29,
             "frostbite": 29,
             "sleep": 32,
             "madness": 32,
-            "deathBlight": 25
+            "death-blight": 25
         },
         "poise": 10,
         "weight": 4.1
@@ -263,13 +263,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 55,
+            "scarlet-rot": 55,
             "poison": 55,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 46,
             "madness": 46,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 12,
         "weight": 7.1
@@ -288,13 +288,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 63,
             "frostbite": 63,
             "sleep": 99,
             "madness": 99,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 45,
         "weight": 24.0
@@ -313,13 +313,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 90,
             "madness": 90,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 43,
         "weight": 23.2
@@ -338,13 +338,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 28,
             "madness": 28,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 10,
         "weight": 3.2
@@ -363,13 +363,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 90,
             "madness": 90,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 12,
         "weight": 6.3
@@ -388,13 +388,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 75,
             "madness": 75,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 10,
         "weight": 5.3
@@ -413,13 +413,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 99,
             "madness": 99,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 12,
         "weight": 7.1
@@ -438,13 +438,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 52,
+            "scarlet-rot": 52,
             "poison": 52,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 54,
             "madness": 54,
-            "deathBlight": 54
+            "death-blight": 54
         },
         "poise": 15,
         "weight": 7.7
@@ -463,13 +463,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 83,
             "frostbite": 83,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 34,
         "weight": 17.5
@@ -488,13 +488,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 52,
+            "scarlet-rot": 52,
             "poison": 52,
             "hemorrhage": 69,
             "frostbite": 69,
             "sleep": 32,
             "madness": 32,
-            "deathBlight": 34
+            "death-blight": 34
         },
         "poise": 33,
         "weight": 16.5
@@ -513,13 +513,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 63,
             "madness": 63,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 10,
         "weight": 4.1
@@ -538,13 +538,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 90,
             "frostbite": 90,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 34,
         "weight": 17.5
@@ -563,13 +563,13 @@
             "holy": 13.4
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 75,
             "frostbite": 75,
             "sleep": 34,
             "madness": 34,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 34,
         "weight": 16.4
@@ -588,13 +588,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 19,
         "weight": 9.2
@@ -613,13 +613,13 @@
             "holy": 11.3
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 9.0
@@ -638,13 +638,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 61,
             "frostbite": 61,
             "sleep": 22,
             "madness": 22,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 28,
         "weight": 13.7
@@ -663,13 +663,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 24,
         "weight": 11.8
@@ -688,13 +688,13 @@
             "holy": 11.9
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 76,
             "frostbite": 76,
             "sleep": 25,
             "madness": 25,
-            "deathBlight": 25
+            "death-blight": 25
         },
         "poise": 28,
         "weight": 13.7
@@ -713,13 +713,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 22,
             "madness": 22,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 27,
         "weight": 12.5
@@ -738,13 +738,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 19,
         "weight": 10.6
@@ -763,13 +763,13 @@
             "holy": 9.9
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 45,
             "frostbite": 45,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 9.6
@@ -788,13 +788,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 18,
         "weight": 8.3
@@ -813,13 +813,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 16,
         "weight": 7.7
@@ -838,13 +838,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 7,
         "weight": 4.1
@@ -863,13 +863,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 19,
         "weight": 9.2
@@ -888,13 +888,13 @@
             "holy": 7.3
         },
         "resistances": {
-            "scarletRot": 21,
+            "scarlet-rot": 21,
             "poison": 21,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 10
+            "death-blight": 10
         },
         "poise": 17,
         "weight": 8.5
@@ -913,13 +913,13 @@
             "holy": 14.0
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 20,
             "frostbite": 20,
             "sleep": 104,
             "madness": 104,
-            "deathBlight": 59
+            "death-blight": 59
         },
         "poise": 5,
         "weight": 3.4
@@ -938,13 +938,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 71,
             "frostbite": 71,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 21,
         "weight": 11.8
@@ -963,13 +963,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 61,
             "frostbite": 61,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 10.7
@@ -988,13 +988,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 71,
+            "scarlet-rot": 71,
             "poison": 71,
             "hemorrhage": 83,
             "frostbite": 83,
             "sleep": 46,
             "madness": 46,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 47,
         "weight": 26.5
@@ -1013,13 +1013,13 @@
             "holy": 11.8
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 19,
         "weight": 10.4
@@ -1038,13 +1038,13 @@
             "holy": 11.7
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 16,
             "madness": 16,
-            "deathBlight": 19
+            "death-blight": 19
         },
         "poise": 18,
         "weight": 9.7
@@ -1063,13 +1063,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 17,
         "weight": 8.8
@@ -1088,13 +1088,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.3
@@ -1113,13 +1113,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 10,
         "weight": 5.1
@@ -1138,13 +1138,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 67,
             "frostbite": 67,
             "sleep": 28,
             "madness": 28,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 27,
         "weight": 15.0
@@ -1163,13 +1163,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 52,
+            "scarlet-rot": 52,
             "poison": 52,
             "hemorrhage": 54,
             "frostbite": 54,
             "sleep": 22,
             "madness": 22,
-            "deathBlight": 22
+            "death-blight": 22
         },
         "poise": 24,
         "weight": 13.7
@@ -1188,13 +1188,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 60,
             "madness": 60,
-            "deathBlight": 60
+            "death-blight": 60
         },
         "poise": 5,
         "weight": 3.2
@@ -1213,13 +1213,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 19,
         "weight": 8.8
@@ -1248,13 +1248,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 8,
         "weight": 5.1
@@ -1273,13 +1273,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 34,
+            "scarlet-rot": 34,
             "poison": 34,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 7,
         "weight": 4.1
@@ -1298,13 +1298,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 8,
         "weight": 5.1
@@ -1323,13 +1323,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 7,
         "weight": 4.1
@@ -1348,13 +1348,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 16,
         "weight": 8.3
@@ -1373,13 +1373,13 @@
             "holy": 9.1
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 15,
         "weight": 7.3
@@ -1398,13 +1398,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 7,
         "weight": 4.1
@@ -1423,13 +1423,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 107,
             "madness": 107,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 6.3
@@ -1448,13 +1448,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 71,
             "frostbite": 71,
             "sleep": 35,
             "madness": 35,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 33,
         "weight": 15.5
@@ -1473,13 +1473,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 61,
             "frostbite": 61,
             "sleep": 29,
             "madness": 29,
-            "deathBlight": 29
+            "death-blight": 29
         },
         "poise": 31,
         "weight": 14.9
@@ -1498,13 +1498,13 @@
             "holy": 14.5
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 71,
             "frostbite": 71,
             "sleep": 35,
             "madness": 35,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 33,
         "weight": 15.5
@@ -1523,13 +1523,13 @@
             "holy": 14.1
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 61,
             "frostbite": 61,
             "sleep": 29,
             "madness": 29,
-            "deathBlight": 29
+            "death-blight": 29
         },
         "poise": 31,
         "weight": 14.9
@@ -1548,13 +1548,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 24,
         "weight": 11.8
@@ -1573,13 +1573,13 @@
             "holy": 9.8
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.8
@@ -1598,13 +1598,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 22,
         "weight": 10.6
@@ -1623,13 +1623,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 34,
+            "scarlet-rot": 34,
             "poison": 34,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 54,
             "madness": 54,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 5,
         "weight": 3.2
@@ -1648,13 +1648,13 @@
             "holy": 11.9
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 52,
             "madness": 52,
-            "deathBlight": 54
+            "death-blight": 54
         },
         "poise": 3,
         "weight": 2.4
@@ -1673,13 +1673,13 @@
             "holy": 8.2
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 16,
             "madness": 16,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 22,
         "weight": 11.2
@@ -1723,13 +1723,13 @@
             "holy": 12.7
         },
         "resistances": {
-            "scarletRot": 65,
+            "scarlet-rot": 65,
             "poison": 65,
             "hemorrhage": 22,
             "frostbite": 22,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 80
+            "death-blight": 80
         },
         "poise": 8,
         "weight": 5.0
@@ -1748,13 +1748,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 18,
             "frostbite": 18,
             "sleep": 48,
             "madness": 48,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 7,
         "weight": 4.0
@@ -1773,13 +1773,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 18,
         "weight": 8.8
@@ -1798,13 +1798,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 31,
+            "scarlet-rot": 31,
             "poison": 31,
             "hemorrhage": 54,
             "frostbite": 54,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 22,
         "weight": 10.4
@@ -1823,13 +1823,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 37,
+            "scarlet-rot": 37,
             "poison": 37,
             "hemorrhage": 56,
             "frostbite": 56,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 25,
         "weight": 11.6
@@ -1848,13 +1848,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 9.2
@@ -1873,13 +1873,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 21,
+            "scarlet-rot": 21,
             "poison": 21,
             "hemorrhage": 34,
             "frostbite": 34,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 10
+            "death-blight": 10
         },
         "poise": 16,
         "weight": 8.3
@@ -1898,13 +1898,13 @@
             "holy": 14.1
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 10,
         "weight": 5.1
@@ -1923,13 +1923,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 8,
         "weight": 4.1
@@ -1948,13 +1948,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 21,
         "weight": 10.6
@@ -1973,13 +1973,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 9.2
@@ -1998,13 +1998,13 @@
             "holy": 6.8
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 45,
             "frostbite": 45,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 16
+            "death-blight": 16
         },
         "poise": 17,
         "weight": 8.4
@@ -2023,13 +2023,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 22,
         "weight": 10.6
@@ -2048,13 +2048,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 8,
         "weight": 4.1
@@ -2073,13 +2073,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 31,
+            "scarlet-rot": 31,
             "poison": 31,
             "hemorrhage": 20,
             "frostbite": 20,
             "sleep": 62,
             "madness": 62,
-            "deathBlight": 66
+            "death-blight": 66
         },
         "poise": 7,
         "weight": 3.2
@@ -2098,13 +2098,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 19,
         "weight": 9.2
@@ -2123,13 +2123,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 21,
         "weight": 9.2
@@ -2148,13 +2148,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 8,
         "weight": 5.1
@@ -2173,13 +2173,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 67
+            "death-blight": 67
         },
         "poise": 7,
         "weight": 4.1
@@ -2198,13 +2198,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 34,
+            "scarlet-rot": 34,
             "poison": 34,
             "hemorrhage": 16,
             "frostbite": 16,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 7,
         "weight": 3.2
@@ -2273,13 +2273,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 63,
             "madness": 63,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 10,
         "weight": 4.6
@@ -2298,13 +2298,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 16,
             "frostbite": 16,
             "sleep": 54,
             "madness": 54,
-            "deathBlight": 54
+            "death-blight": 54
         },
         "poise": 8,
         "weight": 3.7
@@ -2323,13 +2323,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 64,
             "madness": 64,
-            "deathBlight": 82
+            "death-blight": 82
         },
         "poise": 12,
         "weight": 5.1
@@ -2348,13 +2348,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 24,
         "weight": 10.6
@@ -2373,13 +2373,13 @@
             "holy": 9.1
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 54,
             "frostbite": 54,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.0
@@ -2398,13 +2398,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 19,
         "weight": 9.3
@@ -2423,13 +2423,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 17,
         "weight": 8.4
@@ -2448,13 +2448,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 22,
         "weight": 11.8
@@ -2473,13 +2473,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 63,
             "frostbite": 63,
             "sleep": 90,
             "madness": 90,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 45,
         "weight": 24.7
@@ -2498,13 +2498,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 54,
             "frostbite": 54,
             "sleep": 75,
             "madness": 75,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 43,
         "weight": 23.6
@@ -2523,13 +2523,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.3
@@ -2548,13 +2548,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 54,
             "frostbite": 54,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 22
+            "death-blight": 22
         },
         "poise": 19,
         "weight": 9.7
@@ -2573,13 +2573,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 21,
+            "scarlet-rot": 21,
             "poison": 21,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 0,
             "madness": 0,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 17,
         "weight": 9.3
@@ -2598,13 +2598,13 @@
             "holy": 7.1
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 8,
         "weight": 5.1
@@ -2623,13 +2623,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 83,
             "frostbite": 83,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 38,
         "weight": 20.1
@@ -2648,13 +2648,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 24,
         "weight": 11.8
@@ -2673,13 +2673,13 @@
             "holy": 10.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.8
@@ -2698,13 +2698,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 46,
             "madness": 46,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 13,
         "weight": 7.1
@@ -2723,13 +2723,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 24,
         "weight": 11.8
@@ -2748,13 +2748,13 @@
             "holy": 10.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.8
@@ -2773,13 +2773,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 8,
         "weight": 4.1
@@ -2798,13 +2798,13 @@
             "holy": 14.1
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 12,
         "weight": 6.3
@@ -2823,13 +2823,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 11,
             "frostbite": 11,
             "sleep": 60,
             "madness": 60,
-            "deathBlight": 60
+            "death-blight": 60
         },
         "poise": 5,
         "weight": 2.4
@@ -2848,13 +2848,13 @@
             "holy": 10.0
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 34
+            "death-blight": 34
         },
         "poise": 13,
         "weight": 6.0
@@ -2873,13 +2873,13 @@
             "holy": 11.2
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 45,
             "madness": 45,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 16,
         "weight": 7.4
@@ -2898,13 +2898,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 12,
         "weight": 6.3
@@ -2923,13 +2923,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 22,
             "frostbite": 22,
             "sleep": 34,
             "madness": 34,
-            "deathBlight": 34
+            "death-blight": 34
         },
         "poise": 8,
         "weight": 5.1
@@ -2948,13 +2948,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 61,
+            "scarlet-rot": 61,
             "poison": 61,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 15,
         "weight": 7.7
@@ -2973,13 +2973,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 71,
+            "scarlet-rot": 71,
             "poison": 71,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 15,
         "weight": 8.8
@@ -2998,13 +2998,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 21,
         "weight": 10.6
@@ -3023,13 +3023,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 25
+            "death-blight": 25
         },
         "poise": 22,
         "weight": 11.8
@@ -3048,13 +3048,13 @@
             "holy": 11.0
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 22
+            "death-blight": 22
         },
         "poise": 22,
         "weight": 10.8
@@ -3073,13 +3073,13 @@
             "holy": 13.2
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 5.3
@@ -3098,13 +3098,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 34,
+            "scarlet-rot": 34,
             "poison": 34,
             "hemorrhage": 19,
             "frostbite": 19,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 61
+            "death-blight": 61
         },
         "poise": 8,
         "weight": 4.3
@@ -3123,13 +3123,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 69
+            "death-blight": 69
         },
         "poise": 10,
         "weight": 4.2
@@ -3148,13 +3148,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 55,
+            "scarlet-rot": 55,
             "poison": 55,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 13,
         "weight": 6.3
@@ -3173,13 +3173,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 35,
             "frostbite": 35,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 16,
         "weight": 7.7
@@ -3198,13 +3198,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 31,
+            "scarlet-rot": 31,
             "poison": 31,
             "hemorrhage": 59,
             "frostbite": 59,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 22,
         "weight": 10.4
@@ -3223,13 +3223,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 22,
         "weight": 11.8
@@ -3248,13 +3248,13 @@
             "holy": 8.9
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 21,
         "weight": 10.8
@@ -3273,13 +3273,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 17,
         "weight": 8.0
@@ -3298,13 +3298,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 34,
             "frostbite": 34,
             "sleep": 45,
             "madness": 45,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 16,
         "weight": 7.7
@@ -3323,13 +3323,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 13,
         "weight": 7.1
@@ -3348,13 +3348,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 16,
         "weight": 8.3
@@ -3373,13 +3373,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 63,
             "madness": 63,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 7,
         "weight": 4.1
@@ -3398,13 +3398,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 11
+            "death-blight": 11
         },
         "poise": 18,
         "weight": 8.8
@@ -3423,13 +3423,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 28,
+            "scarlet-rot": 28,
             "poison": 28,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 18,
             "madness": 18,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 24,
         "weight": 10.6
@@ -3448,13 +3448,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 16,
         "weight": 8.3
@@ -3473,13 +3473,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 52,
+            "scarlet-rot": 52,
             "poison": 52,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 15,
         "weight": 7.8
@@ -3498,13 +3498,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 67
+            "death-blight": 67
         },
         "poise": 8,
         "weight": 4.1
@@ -3523,13 +3523,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 35,
             "frostbite": 35,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 12,
         "weight": 7.1
@@ -3548,13 +3548,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.3
@@ -3573,13 +3573,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 22,
             "madness": 22,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 21,
         "weight": 10.6
@@ -3598,13 +3598,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 24,
         "weight": 11.8
@@ -3623,13 +3623,13 @@
             "holy": 9.8
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.8
@@ -3648,13 +3648,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 99,
             "frostbite": 99,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 40,
         "weight": 21.2
@@ -3673,13 +3673,13 @@
             "holy": 13.1
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 90,
             "frostbite": 90,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 38,
         "weight": 20.2
@@ -3698,13 +3698,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.1
@@ -3723,13 +3723,13 @@
             "holy": 13.4
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 19,
             "frostbite": 19,
             "sleep": 47,
             "madness": 47,
-            "deathBlight": 47
+            "death-blight": 47
         },
         "poise": 16,
         "weight": 7.3
@@ -3748,13 +3748,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 83,
             "madness": 83,
-            "deathBlight": 99
+            "death-blight": 99
         },
         "poise": 12,
         "weight": 7.1
@@ -3773,13 +3773,13 @@
             "holy": 7.1
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 11
+            "death-blight": 11
         },
         "poise": 16,
         "weight": 7.7
@@ -3798,13 +3798,13 @@
             "holy": 6.5
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 0,
             "madness": 0,
-            "deathBlight": 0
+            "death-blight": 0
         },
         "poise": 13,
         "weight": 6.8
@@ -3823,13 +3823,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 76,
             "frostbite": 76,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 31,
         "weight": 16.0
@@ -3848,13 +3848,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 24,
         "weight": 12.8
@@ -3873,13 +3873,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 22,
         "weight": 11.8
@@ -3898,13 +3898,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 67
+            "death-blight": 67
         },
         "poise": 8,
         "weight": 4.1
@@ -3923,13 +3923,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 24,
+            "scarlet-rot": 24,
             "poison": 24,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 18,
         "weight": 8.8
@@ -3948,13 +3948,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 25,
         "weight": 11.8
@@ -3973,13 +3973,13 @@
             "holy": 11.0
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 25,
         "weight": 10.8
@@ -3998,13 +3998,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 10.6
@@ -4023,13 +4023,13 @@
             "holy": 8.2
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 16,
             "madness": 16,
-            "deathBlight": 16
+            "death-blight": 16
         },
         "poise": 18,
         "weight": 9.2
@@ -4048,13 +4048,13 @@
             "holy": 8.2
         },
         "resistances": {
-            "scarletRot": 22,
+            "scarlet-rot": 22,
             "poison": 22,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 16,
             "madness": 16,
-            "deathBlight": 16
+            "death-blight": 16
         },
         "poise": 18,
         "weight": 8.1
@@ -4073,13 +4073,13 @@
             "holy": 10.0
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 52,
             "madness": 52,
-            "deathBlight": 54
+            "death-blight": 54
         },
         "poise": 16,
         "weight": 7.8
@@ -4098,13 +4098,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 102,
+            "scarlet-rot": 102,
             "poison": 102,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 90,
             "madness": 90,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 5,
         "weight": 5.1
@@ -4123,13 +4123,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 16,
         "weight": 8.3
@@ -4148,13 +4148,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 25,
         "weight": 12.8
@@ -4173,13 +4173,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 24,
         "weight": 11.8
@@ -4198,13 +4198,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 10,
         "weight": 6.3
@@ -4223,13 +4223,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 13,
         "weight": 7.2
@@ -4248,13 +4248,13 @@
             "holy": 7.9
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 12,
         "weight": 6.1
@@ -4273,13 +4273,13 @@
             "holy": 10.0
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 16,
         "weight": 8.1
@@ -4298,13 +4298,13 @@
             "holy": 9.3
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 34,
             "frostbite": 34,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 15,
         "weight": 7.4
@@ -4323,13 +4323,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.3
@@ -4348,13 +4348,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 56,
+            "scarlet-rot": 56,
             "poison": 56,
             "hemorrhage": 34,
             "frostbite": 34,
             "sleep": 49,
             "madness": 49,
-            "deathBlight": 49
+            "death-blight": 49
         },
         "poise": 16,
         "weight": 7.5
@@ -4373,13 +4373,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 19,
         "weight": 9.2
@@ -4398,13 +4398,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 22,
             "frostbite": 22,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 8,
         "weight": 4.1
@@ -4423,13 +4423,13 @@
             "holy": 7.1
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 35,
             "madness": 35,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 10,
         "weight": 5.1
@@ -4448,13 +4448,13 @@
             "holy": 13.8
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 63,
             "frostbite": 63,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 43,
         "weight": 23.1
@@ -4473,13 +4473,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 46,
             "madness": 46,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 16,
         "weight": 7.1
@@ -4498,13 +4498,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 83,
             "madness": 83,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 10,
         "weight": 5.1
@@ -4523,13 +4523,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 34,
+            "scarlet-rot": 34,
             "poison": 34,
             "hemorrhage": 19,
             "frostbite": 19,
             "sleep": 64,
             "madness": 64,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 8,
         "weight": 4.5
@@ -4548,13 +4548,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 5.1
@@ -4573,13 +4573,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 18,
             "frostbite": 18,
             "sleep": 63,
             "madness": 57,
-            "deathBlight": 67
+            "death-blight": 67
         },
         "poise": 8,
         "weight": 4.1
@@ -4598,13 +4598,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 10,
         "weight": 5.1
@@ -4623,13 +4623,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 55,
+            "scarlet-rot": 55,
             "poison": 55,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 8,
         "weight": 4.1
@@ -4648,13 +4648,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 83,
             "madness": 83,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 12,
         "weight": 6.3
@@ -4673,13 +4673,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 16,
             "frostbite": 16,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 7,
         "weight": 3.2
@@ -4698,13 +4698,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 63,
             "madness": 63,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 5,
         "weight": 3.2
@@ -4723,13 +4723,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 83,
             "madness": 83,
-            "deathBlight": 90
+            "death-blight": 90
         },
         "poise": 12,
         "weight": 6.3
@@ -4748,13 +4748,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 22,
             "frostbite": 22,
             "sleep": 69,
             "madness": 69,
-            "deathBlight": 75
+            "death-blight": 75
         },
         "poise": 10,
         "weight": 5.1
@@ -4773,13 +4773,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 8,
         "weight": 5.1
@@ -4798,13 +4798,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 60,
+            "scarlet-rot": 60,
             "poison": 60,
             "hemorrhage": 99,
             "frostbite": 99,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 34,
         "weight": 17.5
@@ -4823,13 +4823,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 52,
+            "scarlet-rot": 52,
             "poison": 52,
             "hemorrhage": 82,
             "frostbite": 82,
             "sleep": 34,
             "madness": 34,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 33,
         "weight": 16.4
@@ -4848,13 +4848,13 @@
             "holy": 9.2
         },
         "resistances": {
-            "scarletRot": 31,
+            "scarlet-rot": 31,
             "poison": 31,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 17,
             "madness": 17,
-            "deathBlight": 17
+            "death-blight": 17
         },
         "poise": 21,
         "weight": 10.1
@@ -4873,13 +4873,13 @@
             "holy": 8.7
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 10,
             "madness": 10,
-            "deathBlight": 10
+            "death-blight": 10
         },
         "poise": 19,
         "weight": 9.0
@@ -4898,13 +4898,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 28,
             "madness": 28,
-            "deathBlight": 28
+            "death-blight": 28
         },
         "poise": 27,
         "weight": 12.8
@@ -4923,13 +4923,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 35,
             "frostbite": 35,
             "sleep": 60,
             "madness": 60,
-            "deathBlight": 60
+            "death-blight": 60
         },
         "poise": 15,
         "weight": 7.7
@@ -4948,13 +4948,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 42,
+            "scarlet-rot": 42,
             "poison": 42,
             "hemorrhage": 18,
             "frostbite": 18,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 7,
         "weight": 4.1
@@ -4973,13 +4973,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 25
+            "death-blight": 25
         },
         "poise": 24,
         "weight": 11.8
@@ -4998,13 +4998,13 @@
             "holy": 10.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 22
+            "death-blight": 22
         },
         "poise": 24,
         "weight": 10.8
@@ -5023,13 +5023,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 22,
         "weight": 10.6
@@ -5048,13 +5048,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 24
+            "death-blight": 24
         },
         "poise": 24,
         "weight": 11.8
@@ -5073,13 +5073,13 @@
             "holy": 11.9
         },
         "resistances": {
-            "scarletRot": 66,
+            "scarlet-rot": 66,
             "poison": 66,
             "hemorrhage": 48,
             "frostbite": 48,
             "sleep": 52,
             "madness": 52,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 16,
         "weight": 8.5
@@ -5098,13 +5098,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 38,
             "frostbite": 38,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 15,
         "weight": 7.6
@@ -5123,13 +5123,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 76,
+            "scarlet-rot": 76,
             "poison": 76,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 12,
         "weight": 6.3
@@ -5148,13 +5148,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 64,
+            "scarlet-rot": 64,
             "poison": 64,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 34,
             "madness": 34,
-            "deathBlight": 34
+            "death-blight": 34
         },
         "poise": 8,
         "weight": 5.1
@@ -5173,13 +5173,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 67,
             "frostbite": 67,
             "sleep": 35,
             "madness": 35,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 24,
         "weight": 15.5
@@ -5198,13 +5198,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 45,
+            "scarlet-rot": 45,
             "poison": 45,
             "hemorrhage": 61,
             "frostbite": 61,
             "sleep": 32,
             "madness": 32,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 28,
         "weight": 15.0
@@ -5223,13 +5223,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 11
+            "death-blight": 11
         },
         "poise": 21,
         "weight": 10.6
@@ -5248,13 +5248,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 5.1
@@ -5273,13 +5273,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 23,
             "frostbite": 23,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 8,
         "weight": 5.1
@@ -5298,13 +5298,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 50,
+            "scarlet-rot": 50,
             "poison": 50,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 83,
             "madness": 83,
-            "deathBlight": 76
+            "death-blight": 76
         },
         "poise": 10,
         "weight": 5.1
@@ -5323,13 +5323,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 46,
             "frostbite": 46,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 21
+            "death-blight": 21
         },
         "poise": 18,
         "weight": 8.8
@@ -5348,13 +5348,13 @@
             "holy": 13.5
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 83,
             "frostbite": 83,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 33,
         "weight": 16.0
@@ -5373,13 +5373,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 45,
+            "scarlet-rot": 45,
             "poison": 45,
             "hemorrhage": 64,
             "frostbite": 64,
             "sleep": 29,
             "madness": 29,
-            "deathBlight": 29
+            "death-blight": 29
         },
         "poise": 30,
         "weight": 15.0
@@ -5398,13 +5398,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 55
+            "death-blight": 55
         },
         "poise": 17,
         "weight": 8.3
@@ -5423,13 +5423,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 69,
+            "scarlet-rot": 69,
             "poison": 69,
             "hemorrhage": 29,
             "frostbite": 29,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 13,
         "weight": 7.1
@@ -5448,13 +5448,13 @@
             "holy": 6.7
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 10,
         "weight": 5.1
@@ -5473,13 +5473,13 @@
             "holy": 13.4
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 71,
             "madness": 71,
-            "deathBlight": 71
+            "death-blight": 71
         },
         "poise": 8,
         "weight": 5.5
@@ -5498,13 +5498,13 @@
             "holy": 13.2
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 57,
             "madness": 57,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 7,
         "weight": 4.6
@@ -5523,13 +5523,13 @@
             "holy": 12.7
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 17,
             "frostbite": 17,
             "sleep": 59,
             "madness": 59,
-            "deathBlight": 63
+            "death-blight": 63
         },
         "poise": 7,
         "weight": 3.3
@@ -5548,13 +5548,13 @@
             "holy": 12.6
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 10,
             "frostbite": 10,
             "sleep": 54,
             "madness": 54,
-            "deathBlight": 57
+            "death-blight": 57
         },
         "poise": 5,
         "weight": 2.5
@@ -5583,13 +5583,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 71,
+            "scarlet-rot": 71,
             "poison": 71,
             "hemorrhage": 28,
             "frostbite": 28,
             "sleep": 63,
             "madness": 63,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 13,
         "weight": 7.1
@@ -5608,13 +5608,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 25,
             "frostbite": 25,
             "sleep": 60,
             "madness": 60,
-            "deathBlight": 35
+            "death-blight": 35
         },
         "poise": 12,
         "weight": 6.3
@@ -5633,13 +5633,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 67,
             "madness": 67,
-            "deathBlight": 67
+            "death-blight": 67
         },
         "poise": 8,
         "weight": 4.1
@@ -5658,13 +5658,13 @@
             "holy": 13.4
         },
         "resistances": {
-            "scarletRot": 46,
+            "scarlet-rot": 46,
             "poison": 46,
             "hemorrhage": 24,
             "frostbite": 24,
             "sleep": 76,
             "madness": 76,
-            "deathBlight": 83
+            "death-blight": 83
         },
         "poise": 10,
         "weight": 4.9
@@ -5683,13 +5683,13 @@
             "holy": 13.1
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 64
+            "death-blight": 64
         },
         "poise": 8,
         "weight": 4.3
@@ -5708,13 +5708,13 @@
             "holy": 9.5
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 22,
         "weight": 10.6
@@ -5733,13 +5733,13 @@
             "holy": 14.1
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 90,
             "frostbite": 90,
             "sleep": 42,
             "madness": 42,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 39,
         "weight": 18.9
@@ -5758,13 +5758,13 @@
             "holy": 14.0
         },
         "resistances": {
-            "scarletRot": 57,
+            "scarlet-rot": 57,
             "poison": 57,
             "hemorrhage": 75,
             "frostbite": 75,
             "sleep": 34,
             "madness": 34,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 35,
         "weight": 18.1
@@ -5783,13 +5783,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 25,
+            "scarlet-rot": 25,
             "poison": 25,
             "hemorrhage": 55,
             "frostbite": 55,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 21,
         "weight": 9.2
@@ -5808,13 +5808,13 @@
             "holy": 11.4
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 60,
             "frostbite": 60,
             "sleep": 24,
             "madness": 24,
-            "deathBlight": 60
+            "death-blight": 60
         },
         "poise": 25,
         "weight": 13.7
@@ -5833,13 +5833,13 @@
             "holy": 10.9
         },
         "resistances": {
-            "scarletRot": 32,
+            "scarlet-rot": 32,
             "poison": 32,
             "hemorrhage": 52,
             "frostbite": 52,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 52
+            "death-blight": 52
         },
         "poise": 24,
         "weight": 12.8
@@ -5858,13 +5858,13 @@
             "holy": 13.0
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 21,
             "frostbite": 21,
             "sleep": 61,
             "madness": 61,
-            "deathBlight": 61
+            "death-blight": 61
         },
         "poise": 8,
         "weight": 4.1
@@ -5883,13 +5883,13 @@
             "holy": 8.8
         },
         "resistances": {
-            "scarletRot": 35,
+            "scarlet-rot": 35,
             "poison": 35,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 23,
             "madness": 23,
-            "deathBlight": 23
+            "death-blight": 23
         },
         "poise": 22,
         "weight": 10.6
@@ -5908,13 +5908,13 @@
             "holy": 8.3
         },
         "resistances": {
-            "scarletRot": 29,
+            "scarlet-rot": 29,
             "poison": 29,
             "hemorrhage": 50,
             "frostbite": 50,
             "sleep": 19,
             "madness": 19,
-            "deathBlight": 19
+            "death-blight": 19
         },
         "poise": 21,
         "weight": 9.6
@@ -5933,13 +5933,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 82,
+            "scarlet-rot": 82,
             "poison": 82,
             "hemorrhage": 97,
             "frostbite": 97,
             "sleep": 32,
             "madness": 32,
-            "deathBlight": 45
+            "death-blight": 45
         },
         "poise": 47,
         "weight": 25.9
@@ -5958,13 +5958,13 @@
             "holy": 13.3
         },
         "resistances": {
-            "scarletRot": 63,
+            "scarlet-rot": 63,
             "poison": 63,
             "hemorrhage": 90,
             "frostbite": 90,
             "sleep": 46,
             "madness": 46,
-            "deathBlight": 46
+            "death-blight": 46
         },
         "poise": 38,
         "weight": 18.9
@@ -5983,13 +5983,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 54,
+            "scarlet-rot": 54,
             "poison": 54,
             "hemorrhage": 75,
             "frostbite": 75,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 38
+            "death-blight": 38
         },
         "poise": 35,
         "weight": 17.2
@@ -6008,13 +6008,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 35,
             "frostbite": 35,
             "sleep": 50,
             "madness": 50,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 16,
         "weight": 7.7
@@ -6033,13 +6033,13 @@
             "holy": 10.1
         },
         "resistances": {
-            "scarletRot": 53,
+            "scarlet-rot": 53,
             "poison": 53,
             "hemorrhage": 37,
             "frostbite": 37,
             "sleep": 44,
             "madness": 44,
-            "deathBlight": 48
+            "death-blight": 48
         },
         "poise": 13,
         "weight": 6.9
@@ -6058,13 +6058,13 @@
             "holy": 9.4
         },
         "resistances": {
-            "scarletRot": 45,
+            "scarlet-rot": 45,
             "poison": 45,
             "hemorrhage": 32,
             "frostbite": 32,
             "sleep": 38,
             "madness": 38,
-            "deathBlight": 42
+            "death-blight": 42
         },
         "poise": 12,
         "weight": 6.1
@@ -6083,13 +6083,13 @@
             "holy": 10.2
         },
         "resistances": {
-            "scarletRot": 67,
+            "scarlet-rot": 67,
             "poison": 67,
             "hemorrhage": 42,
             "frostbite": 42,
             "sleep": 55,
             "madness": 55,
-            "deathBlight": 50
+            "death-blight": 50
         },
         "poise": 17,
         "weight": 8.3
@@ -6108,13 +6108,13 @@
             "holy": 12.8
         },
         "resistances": {
-            "scarletRot": 45,
+            "scarlet-rot": 45,
             "poison": 45,
             "hemorrhage": 64,
             "frostbite": 64,
             "sleep": 22,
             "madness": 22,
-            "deathBlight": 32
+            "death-blight": 32
         },
         "poise": 31,
         "weight": 15.0
@@ -6133,13 +6133,13 @@
             "holy": 12.4
         },
         "resistances": {
-            "scarletRot": 38,
+            "scarlet-rot": 38,
             "poison": 38,
             "hemorrhage": 57,
             "frostbite": 57,
             "sleep": 21,
             "madness": 21,
-            "deathBlight": 25
+            "death-blight": 25
         },
         "poise": 28,
         "weight": 13.7
@@ -6158,13 +6158,13 @@
             "holy": 8.0
         },
         "resistances": {
-            "scarletRot": 21,
+            "scarlet-rot": 21,
             "poison": 21,
             "hemorrhage": 63,
             "frostbite": 63,
             "sleep": 11,
             "madness": 11,
-            "deathBlight": 18
+            "death-blight": 18
         },
         "poise": 18,
         "weight": 8.8

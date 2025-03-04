@@ -1,5 +1,5 @@
-import StatMap from "../interfaces/statMap";
 import Equippable from "./equippable";
+import StatMap from "./statMap";
 
 interface Multipliers {
     maxHp: number;

@@ -5,46 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Planned
-
-### General
-
--   Add login
--   Add the ability to save builds
--   Add graceful error handling that directs the user to the Github issues page
-
-### Weapon Page
-
--   Add spell scaling
--   Add ignored weapons
--   ~~Add full range of upgrade levels~~
--   Add inventory mode
-    -   Instead of being given the whole list of weapons, user starts with an empty list and adds weapons as they pick them up
-    -   User gives each weapon its current upgrade level and infusion
-    -   Will tell the user if there's a more effective infusion for their stats
-    -   Will tell the user what weapons in their inventory are best
-    -   Will rank the weapons in the user's inventory by potential (i.e. by their damage when upgraded fully and with the most effective infusion)
--   Defer cache updates in a way that allows users to undo unintended destructive changes
--   Add collapsible section under navlinks for settings
-    -   Toggle rank column
-    -   Toggle spell scaling
-    -   Toggle inventory mode
-    -   Add button to load cached data
-    -   Add view for cached data
--   Fix damage calculation for weapons that don't meet their requirements
-
-### Class Page
-
-### Armor Page
-
--   Add character preview
--   Defer cache updates in a way that allows users to undo unintended destructive changes
--   Add collapsible section under navlinks for settings
-    -   How many results to show
-    -   Toggle character preview
-    -   Add button to load cached data
-    -   Add view for cached data
--   Fix armor weight filter
+## [3.0.0] - TBD
 
 ## [2.9.1] - 2025-02-02
 

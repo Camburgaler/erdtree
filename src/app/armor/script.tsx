@@ -1,6 +1,7 @@
 import { CHESTPIECES, GAUNTLETS, HELMETS, LEGGINGS } from "../util/constants";
 import Armor from "../util/types/armor";
 import ArmorSet from "../util/types/armorSet";
+import { evaluateSortBy, SORTBY_MODES } from "./sorting";
 
 export function resetAll(): void {
     [
@@ -123,11 +124,11 @@ export function setStatsToString(set: ArmorSet): string[] {
                 set.leggings?.defenses.holy!,
         },
         resistances: {
-            scarletRot:
-                set.helmet?.resistances.scarletRot! +
-                set.chestpiece?.resistances.scarletRot! +
-                set.gauntlets?.resistances.scarletRot! +
-                set.leggings?.resistances.scarletRot!,
+            "scarlet-rot":
+                set.helmet?.resistances["scarlet-rot"]! +
+                set.chestpiece?.resistances["scarlet-rot"]! +
+                set.gauntlets?.resistances["scarlet-rot"]! +
+                set.leggings?.resistances["scarlet-rot"]!,
             poison:
                 set.helmet?.resistances.poison! +
                 set.chestpiece?.resistances.poison! +
@@ -153,11 +154,11 @@ export function setStatsToString(set: ArmorSet): string[] {
                 set.chestpiece?.resistances.madness! +
                 set.gauntlets?.resistances.madness! +
                 set.leggings?.resistances.madness!,
-            deathBlight:
-                set.helmet?.resistances.deathBlight! +
-                set.chestpiece?.resistances.deathBlight! +
-                set.gauntlets?.resistances.deathBlight! +
-                set.leggings?.resistances.deathBlight!,
+            "death-blight":
+                set.helmet?.resistances["death-blight"]! +
+                set.chestpiece?.resistances["death-blight"]! +
+                set.gauntlets?.resistances["death-blight"]! +
+                set.leggings?.resistances["death-blight"]!,
         },
     };
 
@@ -165,81 +166,10 @@ export function setStatsToString(set: ArmorSet): string[] {
 }
 
 function fitness(item: Armor, sortBy: string): number {
-    switch (sortBy) {
-        case "sort-average":
-            return (
-                Object.values(item.defenses).reduce(
-                    (total: any, n) => total + n,
-                    0
-                ) ?? 0
-            );
-        case "sort-standard":
-            return (
-                [
-                    item.defenses.physical,
-                    item.defenses.strike,
-                    item.defenses.slash,
-                    item.defenses.pierce,
-                ].reduce((total, n) => total + n, 0) ?? 0
-            );
-        case "sort-physical":
-            return item.defenses.physical ?? 0;
-        case "sort-strike":
-            return item.defenses.strike ?? 0;
-        case "sort-slash":
-            return item.defenses.slash ?? 0;
-        case "sort-pierce":
-            return item.defenses.pierce ?? 0;
-        case "sort-elemental":
-            return (
-                [
-                    item.defenses.magic,
-                    item.defenses.fire,
-                    item.defenses.lightning,
-                    item.defenses.holy,
-                ].reduce((total, n) => total + n, 0) ?? 0
-            );
-        case "sort-magic":
-            return item.defenses.magic ?? 0;
-        case "sort-fire":
-            return item.defenses.fire ?? 0;
-        case "sort-lightning":
-            return item.defenses.lightning ?? 0;
-        case "sort-holy":
-            return item.defenses.holy ?? 0;
-        case "sort-resistances":
-            return (
-                Object.values(item.resistances).reduce(
-                    (total, n) => total + n,
-                    0
-                ) ?? 0
-            );
-        case "sort-scarlet-rot":
-            return item.resistances.scarletRot ?? 0;
-        case "sort-poison":
-            return item.resistances.poison ?? 0;
-        case "sort-hemorrhage":
-            return item.resistances.hemorrhage ?? 0;
-        case "sort-frostbite":
-            return item.resistances.frostbite ?? 0;
-        case "sort-sleep":
-            return item.resistances.sleep ?? 0;
-        case "sort-madness":
-            return item.resistances.madness ?? 0;
-        case "sort-death":
-            return item.resistances.deathBlight ?? 0;
-        case "sort-poise":
-            return item.poise ?? 0;
-        // case "sort-custom":
-        //     return (
-        //         [item.defenses.physical * 0.5, item.defenses.holy].reduce(
-        //             (total, n) => total + n,
-        //             0
-        //         ) ?? 0
-        //     );
-        default:
-            return -1;
-    }
+    return evaluateSortBy(
+        SORTBY_MODES[sortBy as keyof typeof SORTBY_MODES],
+        item!
+    );
 }
 
 function armorSetContains(set: ArmorSet, item: Armor): boolean {
@@ -311,7 +241,7 @@ export function knapSack(
         );
 
     const equipment = [helmets, chestpieces, gauntlets, leggings];
-    // Fill DP table
+    // Fill dynamic programming table
     for (let i = 0; i < 4; i++) {
         const armorArr = equipment[i];
 

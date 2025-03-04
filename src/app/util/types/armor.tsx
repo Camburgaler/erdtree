@@ -1,10 +1,10 @@
-import Defenses from "./defenses";
+import DefensesMap from "./defensesMap";
 import Equippable from "./equippable";
-import Resistances from "./resistances";
+import ResistancesMap from "./resistancesMap";
 
 type Armor = Equippable & {
-    defenses: Defenses;
-    resistances: Resistances;
+    defenses: DefensesMap<number>;
+    resistances: ResistancesMap<number>;
     poise: number;
     weight: number;
     fitness?: number;

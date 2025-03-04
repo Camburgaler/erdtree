@@ -1,4 +1,4 @@
-import { getChangelogHtml } from "@/app/util/markdown";
+import { getChangelogHtml } from "./script";
 
 export default async function AboutPage() {
     const changelogHtml = await getChangelogHtml();

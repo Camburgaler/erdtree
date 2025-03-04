@@ -17,11 +17,13 @@ import {
     INFUSIONS,
     WEAPONS,
 } from "../util/constants";
-import AttackPowerTypeMap from "../util/interfaces/attackPowerTypeMap";
-import CategoryMap from "../util/interfaces/categoryMap";
-import InfusionMap from "../util/interfaces/infusionMap";
-import StatMap from "../util/interfaces/statMap";
+import AttackPowerTypeMap, {
+    AttackPowerTypeMapKey,
+} from "../util/types/attackPowerTypeMap";
+import CategoryMap from "../util/types/categoryMap";
 import { CalcCorrectGraph } from "../util/types/correction";
+import InfusionMap, { InfusionMapKey } from "../util/types/infusionMap";
+import StatMap, { StatMapKey } from "../util/types/statMap";
 import Weapon from "../util/types/weapon";
 import WeaponInfusion from "../util/types/weaponInfusion";
 import { WeaponResultRow } from "./components/WeaponResultRow";
@@ -41,7 +43,7 @@ export type WeaponResult = {
     spellScaling: number;
 };
 export type SortBy = {
-    dmgType: string;
+    dmgType: InfusionMapKey | "max";
     desc: boolean;
 };
 
@@ -70,7 +72,8 @@ const anyAttackPowerTypes = (
     attackPowerTypesInclude: boolean
 ): boolean => {
     let result: boolean = Object.entries(dmg).some(
-        ([key, value]) => attackPowerTypes[key] && value
+        ([key, value]: [string, number]) =>
+            attackPowerTypes[key as AttackPowerTypeMapKey] && value
     );
     return attackPowerTypesInclude ? result : !result;
 };
@@ -84,8 +87,8 @@ const allAttackPowerTypes = (
     if (!(Object.values(attackPowerTypes) as boolean[]).includes(true)) {
         result = false;
     } else {
-        result = Object.entries(dmg).every(([key, value]) =>
-            attackPowerTypes[key] ? value! > 0 : true
+        result = Object.entries(dmg).every(([key, value]: [string, number]) =>
+            attackPowerTypes[key as AttackPowerTypeMapKey] ? value! > 0 : true
         ) as boolean;
     }
     return attackPowerTypesInclude ? result : !result;
@@ -97,8 +100,11 @@ const exactlyAttackPowerTypes = (
     attackPowerTypesInclude: boolean
 ): boolean => {
     let result: boolean = Object.entries(attackPowerTypes).every(
-        ([key, value]) =>
-            value ? dmg[key]! > 0 : dmg[key]! == 0 || dmg[key]! == undefined
+        ([key, value]: [string, boolean]) =>
+            value
+                ? dmg[key as AttackPowerTypeMapKey]! > 0
+                : dmg[key as AttackPowerTypeMapKey]! == 0 ||
+                  dmg[key as AttackPowerTypeMapKey]! == undefined
     ) as boolean;
     return attackPowerTypesInclude ? result : !result;
 };
@@ -133,7 +139,7 @@ function corrections(
     Object.entries(stats).forEach(
         ([statId, statVal]: [string, number | undefined]) => {
             // if the stat should be corrected
-            if (masks[statId]) {
+            if (masks[statId as StatMapKey]) {
                 // find the stage that the stat is in
                 let index = calc.findIndex((stage) => stage.softcap > statVal!);
                 // if the stat is outside of the graph, use the last stage
@@ -165,7 +171,7 @@ function corrections(
                 }
 
                 // apply the correction
-                result[statId] =
+                result[statId as StatMapKey] =
                     prevStage.growth +
                     (stage.growth - prevStage.growth) * ratio;
             }
@@ -216,9 +222,9 @@ function calculateIneffectiveStats(
 ): StatMap<boolean> {
     let results: StatMap<boolean> = { ...DEFAULT_STAT_MAP_BOOLEAN };
     // if (logWeapon) console.log("Requirements: ", requirements);
-    Object.entries(stats).forEach(([statId, statVal]) => {
-        if (requirements[statId]! > statVal!) {
-            results[statId] = true;
+    Object.entries(stats).forEach(([statId, statVal]: [string, number]) => {
+        if (requirements[statId as StatMapKey]! > statVal!) {
+            results[statId as StatMapKey] = true;
         }
     });
 
@@ -228,7 +234,7 @@ function calculateIneffectiveStats(
 
 function calculateBaseAttackPowerRating(
     isDamageType: boolean,
-    attackPowerType: string,
+    attackPowerType: AttackPowerTypeMapKey,
     weaponInfusion: WeaponInfusion,
     weapon: Weapon,
     infId: string,
@@ -287,7 +293,7 @@ function calculateBaseAttackPowerRating(
 
 function attackPower(
     weapon: Weapon,
-    infId: string,
+    infId: InfusionMapKey,
     upgraded: boolean,
     stats: StatMap<number>,
     twoHanded: boolean,
@@ -520,16 +526,17 @@ function checkStatRequirementsMet(
 ): boolean {
     // check all stats except for STR
     return (
-        Object.keys(weapon.requirements).every((statName: string) =>
-            // if the stat is STR
-            statName == "STR"
-                ? // and if the weapon is using two handed damage
-                  twoHanded
-                    ? // then use the two handing formula for STR
-                      stats["STR"] * 1.5 >= weapon.requirements["STR"]
-                    : // else use the one handed formula for STR
-                      stats["STR"] >= weapon.requirements["STR"]
-                : stats[statName]! >= weapon.requirements[statName]!
+        (Object.keys(weapon.requirements) as StatMapKey[]).every(
+            (statName: StatMapKey) =>
+                // if the stat is STR
+                statName == "STR"
+                    ? // and if the weapon is using two handed damage
+                      twoHanded
+                        ? // then use the two handing formula for STR
+                          stats["STR"] * 1.5 >= weapon.requirements["STR"]
+                        : // else use the one handed formula for STR
+                          stats["STR"] >= weapon.requirements["STR"]
+                    : stats[statName]! >= weapon.requirements[statName]!
         ) ||
         // or ignore stats if not required
         !requireStats
@@ -542,8 +549,8 @@ function checkInfusionIsAllowed(
 ): boolean {
     // if the weapon has an infusion that is allowed
     return Object.entries(weapon.infusions).some(
-        ([infId, infusion]) =>
-            allowedInfusions[infId] &&
+        ([infId, infusion]: [string, WeaponInfusion]) =>
+            allowedInfusions[infId as InfusionMapKey] &&
             Object.values(infusion?.damage!).some((d) => d! > 0)
     );
 }
@@ -670,7 +677,7 @@ export function mapWeapons(
         // calculate attack ratings for every allowed infusion as well as the maximum damage of any infusion
         let result: WeaponResult = { ...DEFAULT_WEAPON_RESULT };
         result.weaponName = weapon.name;
-        Object.keys(INFUSIONS)
+        (Object.keys(INFUSIONS) as InfusionMapKey[])
             .filter((infId) => infusions[infId])
             .forEach((infId) => {
                 // if (weapon.name == "Duelist Greataxe" && infId == "standard") {
@@ -750,9 +757,11 @@ export function mapWeapons(
                             ) &&
                                 !buffableOnly) ||
                             weapon.infusions[
-                                Object.keys(weapon.infusions).find(
-                                    (weaponInfId) => weaponInfId == infId
-                                )!
+                                (
+                                    Object.keys(
+                                        weapon.infusions
+                                    ) as InfusionMapKey[]
+                                ).find((weaponInfId) => weaponInfId == infId)!
                             ]?.buffable
                                 ? temp.attackRatings[infId]
                                 : 0,
