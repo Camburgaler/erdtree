@@ -1,0 +1,17 @@
+{
+    "ci": {
+        "collect": {
+            "staticDistDir": ".next",
+            "numberOfRuns": 3,
+            "settings": {
+                "chromeFlags": "--no-sandbox"
+            }
+        },
+        "assert": {
+            "preset": "lighthouse:recommended"
+        },
+        "upload": {
+            "target": "temporary-public-storage"
+        }
+    }
+}

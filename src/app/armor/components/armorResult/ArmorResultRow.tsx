@@ -6,45 +6,33 @@ function ArmorResultRow(props: {
     addIgnoredItem: Function;
     hotkey?: string;
 }): JSX.Element {
-    let ignoreButton;
-    let name;
-    if (props.name == "Total") {
-        name = <b>{props.name}</b>;
-        ignoreButton = null;
-    } else {
-        name = (
-            <a
-                href={
-                    "https://eldenring.wiki.fextralife.com/" +
-                    props.name.replaceAll(" ", "+")
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                {props.name}
-            </a>
-        );
-        ignoreButton = (
-            <button
-                onClick={() => props.addIgnoredItem(props.armorId)}
-                // add hint on hover
-                title={"Ignore this armor (CTRL+i+" + props.hotkey + ")"}
-                style={{
-                    marginLeft: "5px",
-                    backgroundColor: "transparent",
-                    border: "none",
-                }}
-            >
-                {" "}
-                ❌
-            </button>
-        );
-    }
     return (
         <tr id={props.id}>
             <td>
-                {name}
-                {ignoreButton}
+                <a
+                    href={
+                        "https://eldenring.wiki.fextralife.com/" +
+                        props.name.replaceAll(" ", "+")
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {props.name}
+                </a>
+                <button
+                    name="ignore-button"
+                    onClick={() => props.addIgnoredItem(props.armorId)}
+                    // add hint on hover
+                    title={"Ignore this armor (CTRL+i+" + props.hotkey + ")"}
+                    style={{
+                        marginLeft: "5px",
+                        backgroundColor: "transparent",
+                        border: "none",
+                    }}
+                >
+                    {" "}
+                    ❌
+                </button>
             </td>
             <td>{props.stats[0]}</td>
             <td>{props.stats[1]}</td>

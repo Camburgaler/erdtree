@@ -22,12 +22,16 @@ function ArmorResultSet(props: {
                 </tr>
             </thead>
             <tbody id={props.id}>
-                <ArmorResultRow
-                    name="Total"
-                    id={props.id + "_total"}
-                    stats={props.setStats}
-                    addIgnoredItem={() => null}
-                />
+                <tr id={props.id + "_total"}>
+                    <td>
+                        <b>Total</b>
+                    </td>
+                    <td>{props.setStats[0]}</td>
+                    <td>{props.setStats[1]}</td>
+                    <td>{props.setStats[2]}</td>
+                    <td>{props.setStats[3]}</td>
+                    <td>{props.setStats[4]}</td>
+                </tr>
                 <ArmorResultRow
                     name={props.armorNames[0]}
                     id={props.id + "_" + props.armorIds[0]}

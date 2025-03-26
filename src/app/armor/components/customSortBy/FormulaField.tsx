@@ -1,11 +1,8 @@
-import { LOGGING } from "@/app/util/constants";
 import {
     getChildTokenGroups,
     marshallSortByToTokenGroups,
     SortByArmor,
 } from "./sorting";
-
-const FORMULASELECTOR_LOGGING = LOGGING && false;
 
 export default function FormulaField(props: {
     sortBy: SortByArmor;
@@ -17,10 +14,6 @@ export default function FormulaField(props: {
 
     let tabs: number = 0;
     function mapTokenGroupToLines(tokenGroup: string[]): string {
-        const MAPTOKENGROUPTOLINES_LOGGING = FORMULASELECTOR_LOGGING && false;
-
-        if (MAPTOKENGROUPTOLINES_LOGGING)
-            console.log("token group: ", tokenGroup);
         // if length is 1, process the token
         if (tokenGroup.length === 1) {
             const token = tokenGroup[0];
@@ -43,8 +36,6 @@ export default function FormulaField(props: {
         }
     }
 
-    if (FORMULASELECTOR_LOGGING)
-        console.log("marshalled formula: ", marshalledFormula);
     return (
         <textarea
             id="formula"

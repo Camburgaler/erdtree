@@ -33,20 +33,15 @@ export default function RootLayout({
                 <SpeedInsights />
                 <footer>
                     <span style={{ display: "flex", flexDirection: "column" }}>
-                        <h5>
+                        <p>
                             Forked from{" "}
-                            <a
-                                href="https://github.com/vodofrede"
-                                style={{ color: "var(--link-color)" }}
-                            >
-                                vodofrede
-                            </a>
+                            <a href="https://github.com/vodofrede">vodofrede</a>
                             &apos;s Erdtree Planner
-                        </h5>
-                        <h5>
+                        </p>
+                        <p>
                             v{VERSION} of Erdtree Planner (available under
                             BSD-3-Clause license)
-                        </h5>
+                        </p>
                     </span>
                     <span
                         style={{
@@ -55,13 +50,13 @@ export default function RootLayout({
                             textAlign: "right",
                         }}
                     >
-                        <h5>
+                        <p>
                             © 2024-2025{" "}
                             <a href="https://github.com/Camburgaler">
                                 Camburgaler
                             </a>
-                        </h5>
-                        <h5>
+                        </p>
+                        <p>
                             Have suggestions? Submit a{" "}
                             <a href="https://github.com/Camburgaler/erdtree/issues/new?template=feature_request.md">
                                 feature request
@@ -71,7 +66,7 @@ export default function RootLayout({
                                 bug report
                             </a>
                             !
-                        </h5>
+                        </p>
                     </span>
                 </footer>
             </body>

@@ -17,7 +17,7 @@ function InputSelect(props: {
                 id={props.id}
                 name={props.name}
                 onChange={props.onChange}
-                value={props.value}
+                value={props.value === undefined ? "none" : props.value}
             >
                 <option value="none">None</option>
                 {props.options.map((item: Armor) => (

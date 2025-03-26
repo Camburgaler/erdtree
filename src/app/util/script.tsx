@@ -30,9 +30,6 @@ export function deepCloneAndMap<T extends object>(
     for (const val of values) {
         for (const [key, newValue] of Object.entries(val)) {
             if (!(key in original)) {
-                console.warn(
-                    `Invalid key detected: '${key}' is not in SortByArmor.`
-                );
                 continue; // Skip invalid keys
             }
 
@@ -40,9 +37,6 @@ export function deepCloneAndMap<T extends object>(
             const newValueType = getType(newValue);
 
             if (newValueType !== expectedType) {
-                console.warn(
-                    `Type mismatch: '${key}' expected a ${expectedType} but received a ${newValueType}.`
-                );
                 continue; // Skip invalid types
             }
 
