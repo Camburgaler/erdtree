@@ -13,7 +13,7 @@
         "lighthouse": "next build && next start -p 3000 & npx wait-on http://localhost:3000 && npx lhci autorun"
     },
     "dependencies": {
-        "@tailwindcss/postcss": "^4.1.8",
+        "@tailwindcss/postcss": "^4.1.10",
         "@vercel/analytics": "^1",
         "@vercel/speed-insights": "^1",
         "core-js": "^3.42.0",
